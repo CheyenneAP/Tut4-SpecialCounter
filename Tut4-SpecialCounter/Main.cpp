@@ -6,6 +6,7 @@ using namespace std;
 int main(){
 
 	int option,startnum,endnum,stepsize;
+	// end variable to calculate how many time loop should run depending on stepsize
 	int end;
 	cout << " Choose from the following options : 1 to Count Up\n   2 to Count Down \n Enter Option:";
 	cin >> option;
@@ -37,6 +38,6 @@ int main(){
 		}
 
 	}
-	system("pause");
-	return 0;
+	
+	
 }
