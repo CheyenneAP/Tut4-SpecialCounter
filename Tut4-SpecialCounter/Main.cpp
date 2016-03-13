@@ -19,8 +19,10 @@ int main(){
 	cout << endl;
 
 	cout << "Counter start:" << endl;
+	// method calculated 
 	end = (int)(endnum / stepsize);
 	SpecialCounter c(startnum, endnum, 0, stepsize);
+	// when option one is choosen we  increment 
 	if (option == 1)
 	{
 		for (int i = 0; i < end; i++)
@@ -30,6 +32,7 @@ int main(){
 		}
 	}
 	else
+		//when option one is choosen we  decrement
 	{
 		for (int i = 0; i < end; i++)
 		{
